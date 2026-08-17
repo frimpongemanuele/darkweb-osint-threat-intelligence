@@ -1,52 +1,10 @@
 # OSINT & Dark Web Threat Intelligence for Corporate Security
 
 > An academic cybersecurity project exploring the integration of Dark Web
-> Monitoring, OSINT, SIEM analysis, and controlled vulnerability assessment
+> Monitoring, OSINT, SIEM analysis and controlled vulnerability assessment
 > Within a simulated corporate security incident.
 
 [Architecture diagram]
-
-                         ┌───────────────────────┐
-                         │   INTERNET / EXTERNAL │
-                         │        SOURCES        │
-                         └───────────┬───────────┘
-                                     │
-                                     ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    VIRTUALIZED LAB                           │
-│                  Host PC + VirtualBox                        │
-│                                                             │
-│  ┌─────────────────┐     indicators    ┌─────────────────┐  │
-│  │ OSINT & DARK WEB│ ────────────────► │  SIEM & LOG     │  │
-│  │   MONITORING    │                   │   MANAGEMENT    │  │
-│  │                 │                   │                 │  │
-│  │ Ubuntu Linux    │                   │ Splunk          │  │
-│  │ Tor Browser     │                   │                 │  │
-│  │ DarkOwl         │                   └────────┬────────┘  │
-│  │ Maltego         │                            │ findings   │
-│  └─────────────────┘                            ▼            │
-│                                      ┌─────────────────┐    │
-│                                      │  PENETRATION    │    │
-│                                      │    TESTING      │    │
-│                                      │                 │    │
-│                                      │ Kali Linux      │    │
-│                                      │ Metasploit      │    │
-│                                      └────────┬────────┘    │
-└───────────────────────────────────────────────┼─────────────┘
-                                                │
-                                      controlled validation
-                                                │
-                                                ▼
-                                   ┌────────────────────────┐
-                                   │ SIMULATED CORPORATE    │
-                                   │      ENVIRONMENT       │
-                                   │                        │
-                                   │ Systems / Services     │
-                                   │ Security Events / Logs │
-                                   └────────────┬───────────┘
-                                                │
-                                                └── logs ──► SIEM
-                                                
 
 ## Overview
 
