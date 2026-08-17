@@ -320,8 +320,8 @@ For additional discussion of responsible research and data handling, see [Ethics
 
 ## Related Documentation
 
-* [Architecture](architecture.md) — lab environments and information flow
-* [Methodology](methodology.md) — investigation methodology
-* [Results](results.md) — project findings and conclusions
-* [Tools Evaluated](tools-evaluated.md) — technologies used and researched
-* [Ethics & Legal Considerations](ethics-and-legal.md) — legal, privacy and responsible-use considerations
+* [Architecture](architecture.md): lab environments and information flow
+* [Methodology](methodology.md): investigation methodology
+* [Results](results.md): project findings and conclusions
+* [Tools Evaluated](tools-evaluated.md): technologies used and researched
+* [Ethics & Legal Considerations](ethics-and-legal.md): legal, privacy and responsible-use considerations
