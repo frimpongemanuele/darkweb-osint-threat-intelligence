@@ -4,7 +4,7 @@
 > Monitoring, OSINT, SIEM analysis and controlled vulnerability assessment
 > Within a simulated corporate security incident.
 
-![alt text](https://github.com/frimpongemanuele/darkweb-osint-threat-intelligence/assets/architecture/lab-architecture.svg?raw=true)
+![alt text](https://github.com/frimpongemanuele/darkweb-osint-threat-intelligence/blob/main/assets/architecture/lab-architecture.svg?raw=true)
 
 ## Overview
 
