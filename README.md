@@ -7,7 +7,7 @@
 <p align="center">
   <img src="assets/architecture/lab-architecture.svg"
        alt="OSINT and Dark Web Threat Intelligence Lab Architecture"
-       width="850">
+       width="500">
 </p>
 
 ## Overview
