@@ -283,6 +283,6 @@ For further discussion, see [Ethics & Legal Considerations](ethics-and-legal.md)
 
 The central principle of the project can be summarized as:
 
-> **Collect with a purpose, correlate before drawing conclusions, validate technical assumptions, and feed the results back into monitoring and defensive controls.**
+> **Collect with a purpose, correlate before drawing conclusions, validate technical assumptions and feed the results back into monitoring and defensive controls.**
 
 The value of OSINT and Dark Web intelligence therefore comes not simply from collecting more information, but from integrating relevant external intelligence into a structured security investigation process.
