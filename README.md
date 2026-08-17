@@ -1,13 +1,13 @@
 # OSINT & Dark Web Threat Intelligence for Corporate Security
 
 > An academic cybersecurity project exploring the integration of Dark Web
-> Monitoring, OSINT, SIEM analysis and controlled vulnerability assessment
-> Within a simulated corporate security incident.
+> monitoring, OSINT, SIEM analysis and controlled vulnerability assessment
+> within a simulated corporate security incident.
 
 <p align="center">
   <img src="assets/architecture/lab-architecture.svg"
        alt="OSINT and Dark Web Threat Intelligence Lab Architecture"
-       width="500">
+       width="600">
 </p>
 
 ## Overview
