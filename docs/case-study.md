@@ -130,8 +130,6 @@ Maltego represents these elements as nodes connected through relationships, allo
   <em>Sanitized example of entity and relationship analysis performed with Maltego.</em>
 </p>
 
-For the public repository, the original thesis example should be sanitized or recreated with fictional data to avoid exposing personal identifiers.
-
 The purpose of this phase is to transform isolated findings into **contextualized intelligence** that can support subsequent investigation.
 
 ---
