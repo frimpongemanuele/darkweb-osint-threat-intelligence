@@ -4,7 +4,11 @@
 > Monitoring, OSINT, SIEM analysis and controlled vulnerability assessment
 > Within a simulated corporate security incident.
 
-![Lab Architecture](assets/architecture/lab-architecture.svg)
+<p align="center">
+  <img src="assets/architecture/lab-architecture.svg"
+       alt="OSINT and Dark Web Threat Intelligence Lab Architecture"
+       width="850">
+</p>
 
 ## Overview
 
