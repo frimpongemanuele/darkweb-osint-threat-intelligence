@@ -36,7 +36,7 @@ Dark Web research and security testing can expose a system to potentially malici
 
 ### Separation of Responsibilities
 
-Rather than performing every activity from a single machine, the environment separates **intelligence collection**, **security monitoring**, and **technical validation**.
+Rather than performing every activity from a single machine, the environment separates **intelligence collection**, **security monitoring** and **technical validation**.
 
 This provides a clearer security workflow and limits the scope of each environment.
 
@@ -102,7 +102,7 @@ The monitored event categories include:
 
 The SIEM layer represents the connection between externally collected intelligence and activity observed within the monitored environment.
 
-Relevant intelligence discovered through OSINT or Dark Web monitoring — such as compromised credentials, suspicious IP addresses, malicious domains or other indicators of compromise — can be used to guide monitoring and correlation rules.
+Relevant intelligence discovered through OSINT or Dark Web monitoring, such as compromised credentials, suspicious IP addresses, malicious domains or other indicators of compromise, can be used to guide monitoring and correlation rules.
 
 This allows the investigation to move from:
 
@@ -236,8 +236,8 @@ This design demonstrates how Dark Web intelligence can be treated not as an isol
 
 ## Related Documentation
 
-* [Methodology](methodology.md) — investigation and intelligence-gathering methodology
-* [Case Study](case-study.md) — simulated corporate security incident
-* [Results](results.md) — findings and outcomes of the practical experiment
-* [Tools Evaluated](tools-evaluated.md) — technologies used and researched during the project
-* [Ethics & Legal Considerations](ethics-and-legal.md) — responsible use, authorization and privacy considerations
+* [Methodology](methodology.md): investigation and intelligence-gathering methodology
+* [Case Study](case-study.md): simulated corporate security incident
+* [Results](results.md): findings and outcomes of the practical experiment
+* [Tools Evaluated](tools-evaluated.md): technologies used and researched during the project
+* [Ethics & Legal Considerations](ethics-and-legal.md): responsible use, authorization and privacy considerations
