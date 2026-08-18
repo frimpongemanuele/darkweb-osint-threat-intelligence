@@ -404,8 +404,8 @@ These should be understood within the scope of an **academic cybersecurity proje
 
 ## Related Documentation
 
-* [Architecture](architecture.md) — how the technologies are organized within the lab
-* [Methodology](methodology.md) — how the investigation progresses through each stage
-* [Case Study](case-study.md) — practical application of the tools
-* [Results](results.md) — findings and conclusions
-* [Ethics & Legal Considerations](ethics-and-legal.md) — responsible use and authorization
+* [Architecture](architecture.md): how the technologies are organized within the lab
+* [Methodology](methodology.md): how the investigation progresses through each stage
+* [Case Study](case-study.md): practical application of the tools
+* [Results](results.md): findings and conclusions
+* [Ethics & Legal Considerations](ethics-and-legal.md): responsible use and authorization
