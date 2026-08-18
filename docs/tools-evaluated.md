@@ -14,7 +14,7 @@ To accurately represent the scope of the project, the technologies below are sep
 | **Evaluated / Explored**     | Examined as relevant technologies or potential components of the proposed workflow                              |
 | **Referenced in Research**   | Discussed while surveying the wider OSINT and cybersecurity ecosystem, without implying hands-on implementation |
 
-N.b. **a technology appearing in the thesis should not automatically be interpreted as evidence of practical experience with that technology.**
+N.b. **A technology appearing in the thesis should not automatically be interpreted as evidence of practical experience with that technology.**
 
 ---
 
@@ -99,7 +99,7 @@ The platform represents information through entities and links, allowing relatio
 * social accounts;
 * cryptocurrency addresses
 
-to be visualized and investigated.
+To be visualized and investigated.
 
 **Project role:** Entity correlation and relationship analysis.
 
