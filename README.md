@@ -29,3 +29,16 @@ The case study investigates an integrated security workflow involving:
 The practical environment was implemented as an isolated virtualized lab, separating **OSINT/Dark Web monitoring**, **SIEM and log management**, and **penetration-testing activities** into dedicated environments.
 
 The project demonstrates how external threat intelligence can complement internal security monitoring and technical validation, while also highlighting the importance of employee awareness, security policies, continuous monitoring, and responsible handling of sensitive information.
+
+## Key Areas
+
+The project brings together several complementary areas of cybersecurity research and practical investigation:
+
+- 🔎 **OSINT & Dark Web Intelligence** — collection and analysis of potentially exposed organizational information from open and Dark Web sources.
+- 🕸️ **Threat Intelligence** — investigation and correlation of external indicators to identify potential security risks.
+- 🔗 **Entity & Link Analysis** — connecting people, organizations, domains, email addresses and other indicators to build investigative context.
+- 📊 **SIEM & Log Analysis** — collection and investigation of Windows security events using Splunk Enterprise.
+- 🛡️ **Vulnerability Assessment** — controlled validation of potential security weaknesses using Kali Linux and Metasploit Framework.
+- 🧪 **Security Research Lab** — isolated virtualized environments designed to separate OSINT, monitoring and security-testing activities.
+- 🚨 **Incident Response & Mitigation** — analysis of potential response, remediation and continuous-monitoring measures.
+- ⚖️ **Ethics & Privacy** — consideration of authorization, data minimization, responsible OSINT and safe handling of sensitive information.
