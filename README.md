@@ -42,3 +42,30 @@ The project brings together several complementary areas of cybersecurity researc
 - 🧪 **Security Research Lab** — isolated virtualized environments designed to separate OSINT, monitoring and security-testing activities.
 - 🚨 **Incident Response & Mitigation** — analysis of potential response, remediation and continuous-monitoring measures.
 - ⚖️ **Ethics & Privacy** — consideration of authorization, data minimization, responsible OSINT and safe handling of sensitive information.
+
+## Architecture
+
+The practical environment was designed as an isolated virtualized security lab, with different activities separated into dedicated environments.
+
+The architecture is organized around three main security functions:
+
+- **OSINT & Dark Web Monitoring** — dedicated environment for OSINT research, Dark Web access and external intelligence collection.
+- **SIEM & Log Management** — environment used to collect and analyze security-related events generated within the monitored systems.
+- **Penetration Testing** — dedicated environment for controlled reconnaissance and vulnerability assessment.
+
+This separation helps reduce interaction between potentially risky research activities and the other components of the laboratory while providing a structured workflow from external intelligence collection to internal investigation and technical validation.
+
+### Investigation Flow
+
+```text
+External Intelligence
+        ↓
+OSINT / Dark Web Research
+        ↓
+Information Correlation
+        ↓
+SIEM & Log Analysis
+        ↓
+Controlled Vulnerability Assessment
+        ↓
+Mitigation & Continuous Monitoring
