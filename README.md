@@ -87,7 +87,7 @@ The practical implementation combines virtualization, Linux-based security envir
 | SIEM & Log Analysis | Splunk Enterprise |
 | Vulnerability Assessment | Metasploit Framework |
 
-> **Note:** The thesis also evaluates a broader set of OSINT and cybersecurity technologie, including OSINT Framework, SpiderFoot, Shodan, Have I Been Pwned, Nmap, Burp Suite, Scrapy, Zeek, Suricata and others. These are documented separately and should not be interpreted as technologies all implemented hands-on in the practical case study.
+> **Note:** The thesis also evaluates a broader set of OSINT and cybersecurity technologies, including OSINT Framework, SpiderFoot, Shodan, Have I Been Pwned, Nmap, Burp Suite, Scrapy, Zeek, Suricata and others. These are documented separately and should not be interpreted as technologies all implemented hands-on in the practical case study.
 >
 > See [`docs/tools-evaluated.md`](docs/tools-evaluated.md) for the complete technology assessment and the distinction between practically demonstrated, evaluated, and referenced technologies.
 
@@ -132,8 +132,23 @@ Phishing / Social Engineering
      Mitigation & Monitoring
 ```
 
-<p align="center"> <img src="assets/case-study/splunk-event-analysis.png" alt="Splunk Windows event analysis" width="650"> </p>
-<p align="center"> <img src="assets/case-study/metasploit-ms17-010-scan.png" alt="Metasploit MS17-010 vulnerability assessment" width="650"> </p>
+**SIEM Investigation: Splunk Enterprise**  
+Windows event logs were collected and analyzed in Splunk to investigate security activity within the simulated environment.
+
+<p align="center">
+  <img src="assets/case-study/splunk-event-analysis.png"
+       alt="Splunk Windows event analysis"
+       width="650">
+</p>
+
+**Controlled Vulnerability Assessment: Metasploit Framework**  
+Metasploit was used to validate the MS17-010 vulnerability hypothesis against the authorized test system; the target was not identified as vulnerable.
+
+<p align="center">
+  <img src="assets/case-study/metasploit-ms17-010-scan.png"
+       alt="Metasploit MS17-010 vulnerability assessment"
+       width="650">
+</p>
 
 For the complete incident scenario and investigation phases, see [`docs/case-study.md`](docs/case-study.md).
 
