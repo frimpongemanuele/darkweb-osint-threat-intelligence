@@ -87,4 +87,90 @@ The practical implementation combines virtualization, Linux-based security envir
 
 > **Note:** The thesis also evaluates and discusses additional OSINT and cybersecurity technologies, including OSINT Framework, SpiderFoot, Shodan, Have I Been Pwned, Nmap, Burp Suite, Scrapy, Zeek, Suricata and others. These are documented separately and should not be interpreted as technologies all implemented hands-on in the practical case study.
 >
-> See [`docs\tools-evaluated.md`](docs\tools-evaluated.md) for the complete technology assessment and the distinction between practically demonstrated, evaluated, and referenced technologies.
+> See [`docs/tools-evaluated.md`](docs/tools-evaluated.md) for the complete technology assessment and the distinction between practically demonstrated, evaluated, and referenced technologies.
+
+## Methodology
+
+The project follows a structured investigation workflow that combines external intelligence collection, information correlation, internal monitoring, and controlled technical validation.
+
+```text
+┌──────────────────────────────┐
+│  1. Intelligence Collection  │
+│     OSINT + Dark Web          │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│  2. Information Analysis     │
+│     Correlation + Link        │
+│     Analysis                  │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│  3. Internal Investigation   │
+│     SIEM + Security Logs      │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│  4. Technical Validation     │
+│     Controlled Assessment     │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│  5. Response & Mitigation    │
+│     Hardening + Monitoring    │
+└──────────────────────────────┘
+```
+
+## Case Study
+
+The practical component of the thesis is based on a **simulated security incident affecting a technology and financial startup**.
+
+The scenario begins with a phishing and social-engineering attack resulting in the compromise of an employee's corporate credentials. The investigation then follows the potential exposure and technical implications of the compromise through multiple security layers.
+
+### Investigation Workflow
+
+```text
+Phishing / Social Engineering
+             ↓
+      Credential Compromise
+             ↓
+      Dark Web Monitoring
+             ↓
+       OSINT Correlation
+             ↓
+       SIEM Investigation
+             ↓
+   Controlled Vulnerability
+          Assessment
+             ↓
+     Mitigation & Monitoring
+```
+
+<p align="center"> <img src="assets/case-study/darkowl-search-results.png" alt="DarkOwl Vision search results" width="800"> </p>
+<p align="center"> <img src="assets/case-study/splunk-event-analysis.png" alt="Splunk Windows event analysis" width="800"> </p>
+<p align="center"> <img src="assets/case-study/metasploit-ms17-010-scan.png" alt="Metasploit MS17-010 vulnerability assessment" width="800"> </p>
+
+## Results
+
+The case study demonstrated how external intelligence and internal security monitoring can be combined to investigate a simulated credential-compromise scenario.
+
+| Area | Result |
+|---|---|
+| Dark Web Intelligence | Demonstrated the identification and analysis of potentially exposed organizational information |
+| OSINT Correlation | Demonstrated how information from multiple sources can be correlated to build investigative context |
+| SIEM Investigation | Used Splunk Enterprise to analyze Windows security events and investigate activity within the monitored environment |
+| Vulnerability Assessment | Assessed the simulated target for the MS17-010 SMB vulnerability using Metasploit Framework |
+| Vulnerability Outcome | The tested target was not identified as vulnerable to the assessed MS17-010 condition |
+| Defensive Response | Identified monitoring, credential protection, hardening and continuous security-awareness measures as relevant mitigation strategies |
+
+### Key Findings
+
+- **External intelligence can provide an early indication of potential organizational exposure**, before or alongside internal security investigations.
+- **OSINT findings become more valuable when correlated with other sources**, rather than being treated as isolated indicators.
+- **SIEM-based log analysis provides an internal perspective** that can be used to investigate and validate suspicious activity.
+- **Technical validation should remain controlled and authorized**, using the minimum level of interaction necessary to assess a security hypothesis.
+- **Continuous monitoring and preventive measures are essential** because exposed information and emerging threats can change over time.
+
+The case study therefore supports the thesis' central proposition: **combining OSINT, Dark Web monitoring and internal security telemetry can improve an organization's ability to identify, investigate and respond to potential security threats.**
+
+For the detailed findings, evidence and limitations, see [`docs/results.md`](docs/results.md).
