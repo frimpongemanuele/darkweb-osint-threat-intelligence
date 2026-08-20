@@ -324,3 +324,77 @@ The complete academic thesis is available here:
 📄 **[Read the full thesis](docs/Thesis.pdf)**
 
 > **Note:** The thesis represents the original academic work, while this repository provides a condensed and reorganized technical presentation of the project for portfolio and professional purposes.
+
+### Thesis Information
+
+| Info | Detail |
+|---|---|
+| **Degree** | Laurea in Informatica |
+| **University** | Università degli Studi di Parma |
+| **Academic Year** | 2023-2024 |
+| **Thesis Title** | *Open Source Intelligence on the Dark Web: Tools and Techniques for Protecting Corporate Infrastructures* |
+
+## Documentation
+
+Detailed technical documentation is available in the [`docs/`](docs/) directory.
+
+| Document | Description |
+|---|---|
+| **[Architecture](docs/architecture.md)** | Lab architecture, virtualized environments, component responsibilities, isolation strategy and information flow. |
+| **[Methodology](docs/methodology.md)** | Investigation methodology covering intelligence collection, correlation, SIEM analysis, technical validation and response. |
+| **[Case Study](docs/case-study.md)** | Practical simulated incident, from credential compromise and Dark Web monitoring to SIEM investigation and vulnerability assessment. |
+| **[Results](docs/results.md)** | Key findings, outcomes, limitations and conclusions derived from the practical case study. |
+| **[Tools & Technologies](docs/tools-evaluated.md)** | Technologies practically demonstrated, evaluated or referenced during the research, with a clear distinction between levels of usage. |
+| **[Ethics, Legal & Responsible Use](docs/ethics-and-legal.md)** | Authorization, privacy, responsible OSINT, sensitive-data handling and ethical security-research considerations. |
+| **[Original Thesis](docs/thesis.pdf)** | Complete original academic thesis on which this portfolio project is based. |
+
+### Repository Structure
+
+```text
+darkweb-osint-threat-intelligence/
+│
+├── README.md
+│
+├── docs/
+│   ├── architecture.md
+│   ├── methodology.md
+│   ├── case-study.md
+│   ├── results.md
+│   ├── tools-evaluated.md
+│   ├── ethics-and-legal.md
+│   └── Thesis.pdf
+│
+└── assets/
+    ├── architecture/
+    │   └── lab-architecture.svg
+    │
+    └── case-study/
+    │   ├── darkowl-search-results.png
+    │   ├── maltego-link-analysis.png
+    │   ├── splunk-event-analysis.png
+    │   └── metasploit-ms17-010-scan.png
+    │
+    └── methodology/
+        └── methodology-flow.svg
+```
+
+## Ethical & Responsible Use
+
+This project involves **OSINT, Dark Web research, security monitoring and vulnerability assessment**, all of which require careful consideration of authorization, privacy and responsible data handling.
+
+All practical security-testing activities documented in this repository were performed within a **controlled academic laboratory environment**. The organization and security incident described in the case study are simulated.
+
+The project follows several core principles:
+
+- 🔐 **Authorization**: security testing should only be performed against systems you own or have explicit permission to assess.
+- 🛡️ **Defensive Purpose**: OSINT and Dark Web intelligence are used to investigate potential exposure and support defensive security activities.
+- 🔎 **Responsible OSINT**: publicly accessible information should still be collected, processed and shared with consideration for privacy and legitimate purpose.
+- 🔑 **Credential Safety**: exposed or leaked credentials must never be used to access systems without authorization.
+- 🧪 **Controlled Testing**: vulnerability assessment is performed in isolated and authorized environments.
+- 👤 **Privacy & Data Minimization**: personal and sensitive information should be collected and retained only when necessary for the investigation.
+- ✅ **Validation**: OSINT and Dark Web findings should be correlated and verified before conclusions or attribution are made.
+- 📝 **Responsible Disclosure**: genuine vulnerabilities or sensitive exposures should be reported through appropriate channels rather than unnecessarily published.
+
+> **Disclaimer:** This repository is provided for **educational, academic research and defensive-security purposes**. Nothing in this project should be interpreted as authorization to access systems without permission, misuse exposed credentials, bypass security controls, perform unauthorized security testing or unlawfully collect or redistribute sensitive information.
+
+For the complete discussion of authorization, GDPR and privacy considerations, Dark Web research, sensitive-data handling and responsible disclosure, see [`docs/ethics-and-legal.md`](docs/ethics-and-legal.md).
