@@ -347,8 +347,6 @@ The research also examines the potential application of techniques including:
 
 These technologies are discussed as possible methods for processing and analyzing large volumes of intelligence data.
 
-**No custom machine-learning model is claimed as part of the practical case study.**
-
 ---
 
 # Technology Mapping
