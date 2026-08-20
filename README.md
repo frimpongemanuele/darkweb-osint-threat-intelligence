@@ -93,33 +93,11 @@ The practical implementation combines virtualization, Linux-based security envir
 
 The project follows a structured investigation workflow that combines external intelligence collection, information correlation, internal monitoring, and controlled technical validation.
 
-```text
-┌──────────────────────────────┐
-│  1. Intelligence Collection  │
-│     OSINT + Dark Web          │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│  2. Information Analysis     │
-│     Correlation + Link        │
-│     Analysis                  │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│  3. Internal Investigation   │
-│     SIEM + Security Logs      │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│  4. Technical Validation     │
-│     Controlled Assessment     │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│  5. Response & Mitigation    │
-│     Hardening + Monitoring    │
-└──────────────────────────────┘
-```
+<p align="center">
+  <img src="assets/methodology/methodology-flow.svg"
+       alt="Methodology investigation workflow and scope"
+       width="600">
+</p>
 
 ## Case Study
 
