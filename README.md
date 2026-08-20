@@ -302,3 +302,25 @@ Investigation
 Response & Remediation
 ```
 
+## Academic Context
+
+This project originated from my **university thesis**, developed as an academic research project exploring the integration of **Dark Web intelligence and Open Source Intelligence (OSINT)** into organizational cybersecurity practices.
+
+The thesis combines theoretical research on the Dark Web, OSINT methodologies, threat intelligence and cybersecurity technologies with a **practical simulated case study** designed to investigate how external intelligence can support security monitoring, vulnerability assessment and incident response.
+
+This GitHub repository is not intended to reproduce the thesis chapter by chapter. Instead, it reorganizes the original research into a **technical portfolio project**, with emphasis on:
+
+- the laboratory architecture;
+- the investigation methodology;
+- the practical case study;
+- the technologies evaluated and demonstrated;
+- the results and lessons learned;
+- ethical, legal and privacy considerations.
+
+### Original Thesis
+
+The complete academic thesis is available here:
+
+📄 **[Read the full thesis](docs/thesis.pdf)**
+
+> **Note:** The thesis represents the original academic work, while this repository provides a condensed and reorganized technical presentation of the project for portfolio and professional purposes.
