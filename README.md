@@ -34,14 +34,14 @@ The project demonstrates how external threat intelligence can complement interna
 
 The project brings together several complementary areas of cybersecurity research and practical investigation:
 
-- 🔎 **OSINT & Dark Web Intelligence** — collection and analysis of potentially exposed organizational information from open and Dark Web sources.
-- 🕸️ **Threat Intelligence** — investigation and correlation of external indicators to identify potential security risks.
-- 🔗 **Entity & Link Analysis** — connecting people, organizations, domains, email addresses and other indicators to build investigative context.
-- 📊 **SIEM & Log Analysis** — collection and investigation of Windows security events using Splunk Enterprise.
-- 🛡️ **Vulnerability Assessment** — controlled validation of potential security weaknesses using Kali Linux and Metasploit Framework.
-- 🧪 **Security Research Lab** — isolated virtualized environments designed to separate OSINT, monitoring and security-testing activities.
-- 🚨 **Incident Response & Mitigation** — analysis of potential response, remediation and continuous-monitoring measures.
-- ⚖️ **Ethics & Privacy** — consideration of authorization, data minimization, responsible OSINT and safe handling of sensitive information.
+- **OSINT & Dark Web Intelligence**: collection and analysis of potentially exposed organizational information from open and Dark Web sources.
+- **Threat Intelligence**: investigation and correlation of external indicators to identify potential security risks.
+- **Entity & Link Analysis**: connecting people, organizations, domains, email addresses and other indicators to build investigative context.
+- **SIEM & Log Analysis**: collection and investigation of Windows security events using Splunk Enterprise.
+- **Vulnerability Assessment**: controlled validation of potential security weaknesses using Kali Linux and Metasploit Framework.
+- **Security Research Lab**: isolated virtualized environments designed to separate OSINT, monitoring and security-testing activities.
+- **Incident Response & Mitigation**: analysis of potential response, remediation and continuous-monitoring measures.
+- **Ethics & Privacy**: consideration of authorization, data minimization, responsible OSINT and safe handling of sensitive information.
 
 ## Architecture
 
@@ -49,9 +49,9 @@ The practical environment was designed as an isolated virtualized security lab, 
 
 The architecture is organized around three main security functions:
 
-- **OSINT & Dark Web Monitoring** — dedicated environment for OSINT research, Dark Web access and external intelligence collection.
-- **SIEM & Log Management** — environment used to collect and analyze security-related events generated within the monitored systems.
-- **Penetration Testing** — dedicated environment for controlled reconnaissance and vulnerability assessment.
+- **OSINT & Dark Web Monitoring**: dedicated environment for OSINT research, Dark Web access and external intelligence collection.
+- **SIEM & Log Management**: environment used to collect and analyze security-related events generated within the monitored systems.
+- **Penetration Testing**: dedicated environment for controlled reconnaissance and vulnerability assessment.
 
 This separation helps reduce interaction between potentially risky research activities and the other components of the laboratory while providing a structured workflow from external intelligence collection to internal investigation and technical validation.
 
@@ -69,3 +69,22 @@ SIEM & Log Analysis
 Controlled Vulnerability Assessment
         ↓
 Mitigation & Continuous Monitoring
+```
+
+## Technologies
+
+The practical implementation combines virtualization, Linux-based security environments, OSINT and Dark Web intelligence, SIEM analysis, and controlled vulnerability assessment.
+
+| Category | Technologies |
+|---|---|
+| Virtualization | Oracle VM VirtualBox |
+| Operating Systems | Ubuntu Linux, Kali Linux |
+| Dark Web Access | Tor Browser |
+| Dark Web Intelligence | DarkOwl Vision |
+| OSINT & Link Analysis | Maltego |
+| SIEM & Log Analysis | Splunk Enterprise |
+| Vulnerability Assessment | Metasploit Framework |
+
+> **Note:** The thesis also evaluates and discusses additional OSINT and cybersecurity technologies, including OSINT Framework, SpiderFoot, Shodan, Have I Been Pwned, Nmap, Burp Suite, Scrapy, Zeek, Suricata and others. These are documented separately and should not be interpreted as technologies all implemented hands-on in the practical case study.
+>
+> See [`docs/tools-evaluated.md`](docs/tools-evaluated.md) for the complete technology assessment and the distinction between practically demonstrated, evaluated, and referenced technologies.
