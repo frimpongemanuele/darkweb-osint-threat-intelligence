@@ -93,11 +93,13 @@ The practical implementation combines virtualization, Linux-based security envir
 
 The project follows a structured investigation workflow that combines external intelligence collection, information correlation, internal monitoring, and controlled technical validation.
 
+<br>
 <p align="center">
   <img src="assets/methodology/methodology-flow.svg"
        alt="Methodology investigation workflow and scope"
-       width="600">
+       width="300">
 </p>
+</br>
 
 ## Case Study
 
@@ -152,3 +154,151 @@ The case study demonstrated how external intelligence and internal security moni
 The case study therefore supports the thesis' central proposition: **combining OSINT, Dark Web monitoring and internal security telemetry can improve an organization's ability to identify, investigate and respond to potential security threats.**
 
 For the detailed findings, evidence and limitations, see [`docs/results.md`](docs/results.md).
+
+## Skills Demonstrated
+
+This project demonstrates a combination of cybersecurity research, technical investigation, system administration and analytical skills.
+
+| Area | Skills Demonstrated |
+|---|---|
+| **Cybersecurity Research** | OSINT, Dark Web intelligence, threat monitoring, security research |
+| **Threat Intelligence** | Information collection, indicator correlation, threat analysis, investigative workflows |
+| **Security Analysis** | Log analysis, event investigation, vulnerability assessment |
+| **OSINT** | Open-source information gathering, entity correlation, link analysis |
+| **SIEM** | Windows event collection and analysis using Splunk Enterprise |
+| **Vulnerability Assessment** | Controlled vulnerability validation using Kali Linux and Metasploit Framework |
+| **Linux & Security Environments** | Linux-based security tooling and isolated virtualized laboratory environments |
+| **Virtualization** | Design and configuration of a multi-environment security laboratory using VirtualBox |
+| **Problem Solving** | Structured investigation, hypothesis validation, evidence correlation and technical troubleshooting |
+| **Technical Documentation** | Research methodology, architecture documentation, technical analysis and security reporting |
+| **Security & Privacy** | Responsible OSINT, data minimization, authorization, ethical handling of sensitive information |
+
+### Key Competencies
+
+- **OSINT & Dark Web Research**
+- **Cybersecurity Analysis**
+- **SIEM & Log Analysis**
+- **Threat Intelligence**
+- **Vulnerability Assessment**
+- **Linux Security Environments**
+- **Virtualization**
+- **Information & Entity Correlation**
+- **Technical Research & Documentation**
+- **Responsible Security Practices**
+
+## Challenges & Lessons Learned
+
+Developing the case study required combining several areas of cybersecurity that are normally addressed independently. One of the main challenges was designing a coherent investigation workflow that connected external intelligence with internal security telemetry and technical validation.
+
+### Key Challenges
+
+- **Connecting heterogeneous information sources**  
+  OSINT and Dark Web sources provide information in different formats and with different levels of reliability. Establishing meaningful relationships between collected information required correlation and validation rather than relying on individual findings.
+
+- **Building an isolated research environment**  
+  Dark Web research and security testing introduce additional technical risks. The laboratory therefore required separation between the different activities and dedicated virtualized environments.
+
+- **Correlating external and internal evidence**  
+  External intelligence alone does not necessarily confirm a security incident. Combining OSINT findings with Windows security events and SIEM analysis provided an additional perspective for investigating the simulated compromise.
+
+- **Validating security hypotheses safely**  
+  Potential vulnerabilities identified during an investigation should be validated within an authorized and controlled environment. The vulnerability-assessment stage therefore focused on testing the MS17-010 hypothesis without treating exploitation as the objective.
+
+- **Handling sensitive information responsibly**  
+  Research involving exposed credentials, personal information and Dark Web sources requires careful consideration of privacy, authorization, data minimization and publication practices.
+
+### Lessons Learned
+
+The project highlighted several important principles:
+
+1. **Security investigations benefit from multiple sources of evidence.**  
+   OSINT, Dark Web intelligence, system logs and vulnerability assessment provide different perspectives that become more useful when correlated.
+
+2. **Information collection is only the beginning of an investigation.**  
+   Findings must be analyzed, validated and placed into context before they can support a security decision.
+
+3. **Isolation is an important part of security research.**  
+   Separating research activities into controlled environments reduces unnecessary exposure and provides a safer platform for experimentation.
+
+4. **A negative security finding is still a useful result.**  
+   The absence of the tested MS17-010 vulnerability demonstrates the importance of validating assumptions rather than treating an initial hypothesis as fact.
+
+5. **Technical capability must be combined with responsible security practices.**  
+   Authorization, privacy and appropriate handling of sensitive information are fundamental when working with OSINT and cybersecurity tools.
+
+> These lessons influenced the final methodology and the recommendations presented in the project.
+
+## Future Improvements
+
+The current project provides a foundation for combining OSINT, Dark Web intelligence, SIEM analysis and controlled vulnerability assessment. Several extensions could make the environment more representative of a real-world threat-intelligence and security-monitoring workflow.
+
+### Automation
+
+- Automate the collection and normalization of OSINT indicators from multiple sources.
+- Introduce scheduled Dark Web monitoring for relevant organizational indicators.
+- Develop automated workflows for correlating newly discovered indicators with existing security data.
+- Reduce manual investigation steps through repeatable data-processing and enrichment pipelines.
+
+### Threat Intelligence Integration
+
+- Integrate additional threat-intelligence feeds and enrichment services.
+- Develop a structured indicator repository for domains, IP addresses, email addresses, usernames and other relevant indicators.
+- Introduce mechanisms for tracking changes to indicators over time.
+- Improve correlation between external intelligence and internal security events.
+
+### SIEM & Detection Engineering
+
+- Expand the Splunk environment with custom dashboards and detection rules.
+- Develop alerts for suspicious authentication activity and potential credential compromise.
+- Correlate external threat intelligence with internal Windows security events.
+- Introduce additional log sources to provide broader visibility across the laboratory environment.
+
+### Security Testing
+
+- Expand the controlled vulnerability-assessment phase to cover additional vulnerabilities and services.
+- Introduce a broader reconnaissance and vulnerability-management workflow.
+- Integrate vulnerability findings with the threat-intelligence investigation process.
+- Develop repeatable testing procedures for the laboratory environment.
+
+### Data Analysis
+
+- Introduce automated classification and prioritization of collected intelligence.
+- Apply statistical or machine-learning techniques where they provide measurable value for identifying patterns or anomalies.
+- Improve visualization of relationships between entities and indicators.
+- Develop historical analysis to identify changes and emerging trends.
+
+### Laboratory Expansion
+
+The laboratory could be extended with additional components such as:
+
+- a dedicated threat-intelligence platform;
+- additional endpoint and network telemetry;
+- centralized log collection;
+- containerized security services;
+- additional simulated enterprise hosts;
+- automated attack-and-detection scenarios.
+
+These additions would allow the environment to evolve from a primarily research-oriented laboratory into a more comprehensive **threat-intelligence and security-monitoring platform**.
+
+### Long-Term Direction
+
+A future version of the project could focus on building a more automated end-to-end workflow:
+
+```text
+OSINT / Dark Web Sources
+          ↓
+Automated Collection
+          ↓
+Normalization & Enrichment
+          ↓
+Threat Intelligence
+          ↓
+Correlation with SIEM
+          ↓
+Detection & Alerting
+          ↓
+Investigation
+          ↓
+Response & Remediation
+```
+
