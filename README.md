@@ -321,6 +321,6 @@ This GitHub repository is not intended to reproduce the thesis chapter by chapte
 
 The complete academic thesis is available here:
 
-📄 **[Read the full thesis](docs/thesis.pdf)**
+📄 **[Read the full thesis](docs/Thesis.pdf)**
 
 > **Note:** The thesis represents the original academic work, while this repository provides a condensed and reorganized technical presentation of the project for portfolio and professional purposes.
