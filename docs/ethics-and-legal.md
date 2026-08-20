@@ -8,7 +8,7 @@ Information being technically accessible does not automatically mean that it sho
 
 This project therefore considers responsible information gathering, data protection and authorization as fundamental parts of the security workflow.
 
-The practical activities documented in this repository were developed for an **academic case study and controlled laboratory environment**. The project does not authorize or encourage security testing against systems without explicit permission, unauthorized access to accounts or systems, credential misuse, or unlawful collection and redistribution of personal information.
+The practical activities documented in this repository were developed for an **academic case study and controlled laboratory environment**. The project does not authorize or encourage security testing against systems without explicit permission, unauthorized access to accounts or systems, credential misuse or unlawful collection and redistribution of personal information.
 
 ---
 
@@ -329,8 +329,8 @@ This documentation is not legal advice.
 
 ## Related Documentation
 
-* [Architecture](architecture.md) — isolation and separation of security environments
-* [Methodology](methodology.md) — responsible intelligence and investigation workflow
-* [Case Study](case-study.md) — controlled application of the methodology
-* [Results](results.md) — findings and project limitations
-* [Tools Evaluated](tools-evaluated.md) — technologies used and researched
+* [Architecture](architecture.md): isolation and separation of security environments
+* [Methodology](methodology.md): responsible intelligence and investigation workflow
+* [Case Study](case-study.md): controlled application of the methodology
+* [Results](results.md): findings and project limitations
+* [Tools Evaluated](tools-evaluated.md): technologies used and researched
