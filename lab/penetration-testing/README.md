@@ -53,16 +53,6 @@ The penetration-testing environment was deployed as a dedicated virtual machine 
 </p>
 
 <p align="center">
-  <em>VirtualBox configuration of the dedicated penetration-testing environment.</em>
-</p>
-
-<p align="center">
-  <img src="../../assets/lab/penetration-testing/pentest-virtualbox-vm-configuration.png"
-       alt="VirtualBox configuration for the penetration testing virtual machine"
-       width="700">
-</p>
-
-<p align="center">
   <em>VirtualBox configuration of the dedicated penetration-testing virtual machine.</em>
 </p>
 
