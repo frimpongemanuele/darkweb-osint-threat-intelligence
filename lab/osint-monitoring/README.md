@@ -300,6 +300,8 @@ The project uses OSINT and Dark Web intelligence for **academic research and def
 
 For the complete discussion of privacy, authorization, responsible OSINT, Dark Web research and sensitive-data handling, see [`../../docs/ethics-and-legal.md`](../../docs/ethics-and-legal.md).
 
+---
+
 ## Related Documentation
 
 * [Project Architecture](../../docs/architecture.md): Complete laboratory architecture and separation of environments
