@@ -43,7 +43,7 @@ The environment was deployed as a dedicated virtual machine using **Oracle VM Vi
 The use of a dedicated VM provides separation between OSINT/Dark Web research and the host system while allowing the environment to be independently configured for security-research activities.
 
 <p align="center">
-  <img src="../../assets/lab/osint-monitoring/virtualbox-vm-configuration.png"
+  <img src="../../assets/lab/osint-monitoring/osint-virtualbox-vm-configuration.png"
        alt="VirtualBox configuration for the OSINT and Dark Web monitoring virtual machine"
        width="700">
 </p>
@@ -149,7 +149,7 @@ The practical OSINT investigation followed a structured workflow.
 
 ### Step 1 — Define the Investigation Target
 
-Identify the organization, domain, account, email address, or other indicator relevant to the simulated incident.
+Identify the organization, domain, account, email address or other indicator relevant to the simulated incident.
 
 ### Step 2 — Collect Open-Source Information
 
@@ -271,9 +271,9 @@ Notable limitations include:
 - no automated enrichment or confidence-scoring pipeline was implemented;
 - collected intelligence required manual analysis and validation;
 - the reliability and freshness of external information cannot always be guaranteed;
-- Dark Web information may be incomplete, outdated, duplicated, intentionally misleading, or unrelated to the investigated organization.
+- Dark Web information may be incomplete, outdated, duplicated, intentionally misleading or unrelated to the investigated organization.
 
-These limitations also provide opportunities for future development, particularly around intelligence automation, enrichment, correlation, and SIEM integration.
+These limitations also provide opportunities for future development, particularly around intelligence automation, enrichment, correlation and SIEM integration.
 
 See [`../../docs/future-work.md`](../../docs/future-work.md) for the proposed development roadmap.
 
@@ -281,7 +281,7 @@ See [`../../docs/future-work.md`](../../docs/future-work.md) for the proposed de
 
 ## Security & Ethical Considerations
 
-OSINT and Dark Web research can expose researchers to sensitive, personal, misleading, or potentially unlawfully obtained information.
+OSINT and Dark Web research can expose researchers to sensitive, personal, misleading or potentially unlawfully obtained information.
 
 The environment and investigation were therefore approached according to several principles:
 
@@ -298,7 +298,7 @@ The environment and investigation were therefore approached according to several
 
 The project uses OSINT and Dark Web intelligence for **academic research and defensive-security purposes**.
 
-For the complete discussion of privacy, authorization, responsible OSINT, Dark Web research, and sensitive-data handling, see [`../../docs/ethics-and-legal.md`](../../docs/ethics-and-legal.md).
+For the complete discussion of privacy, authorization, responsible OSINT, Dark Web research and sensitive-data handling, see [`../../docs/ethics-and-legal.md`](../../docs/ethics-and-legal.md).
 
 ---
 
