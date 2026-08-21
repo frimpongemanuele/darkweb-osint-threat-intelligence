@@ -371,17 +371,11 @@ For the complete discussion of privacy, authorization and responsible security r
 
 ## Related Documentation
 
-| Document | Description |
-|---|---|
-| [Project Architecture](../../docs/architecture.md): Complete laboratory architecture and separation of environments |
-| [Methodology](../../docs/methodology.md): Investigation methodology and workflow |
-| [Case Study](../../docs/case-study.md): Complete simulated security incident |
-| [Results](../../docs/results.md): Findings and conclusions from the investigation |
-| [Tools Evaluated](../../docs/tools-evaluated.md): Technologies demonstrated, evaluated and referenced |
-| [Ethics & Legal](../../docs/ethics-and-legal.md): Responsible research, privacy and legal considerations |
-| [Future Work](../../docs/future-work.md): Proposed technical extensions to the laboratory |
-| [OSINT Monitoring Lab](../osint-monitoring/README.md): External intelligence collection environment |
-
----
-
-[← Back to main project](../../README.md)
+* [Project Architecture](../../docs/architecture.md): Complete laboratory architecture and separation of environments
+* [Methodology](../../docs/methodology.md): Investigation methodology and workflow
+* [Case Study](../../docs/case-study.md): Complete simulated security incident
+* [Results](../../docs/results.md): Findings and conclusions from the investigation
+* [Tools Evaluated](../../docs/tools-evaluated.md): Technologies demonstrated, evaluated and referenced
+* [Ethics & Legal](../../docs/ethics-and-legal.md): Responsible research, privacy and legal considerations
+* [Future Work](../../docs/future-work.md): Proposed technical extensions to the laboratory
+* [OSINT Monitoring Lab](../osint-monitoring/README.md): External intelligence collection environment
