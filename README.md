@@ -16,7 +16,7 @@ The continuous evolution of cyber threats requires organizations to adopt a proa
 
 This project explores how **Open Source Intelligence (OSINT)** and **Dark Web monitoring** can be integrated into a broader corporate cybersecurity strategy to support threat identification, investigation, and incident response.
 
-Developed as part of my Bachelor's thesis in Computer Science, the project combines theoretical research with a practical case study based on a simulated technology and financial startup affected by a security incident involving compromised employee credentials.
+Developed as part of my Bachelor's thesis in Computer Science, the project combines theoretical research with a practical case study based on a simulated technology startup operating in a financial/data-driven domain affected by a security incident involving compromised employee credentials.
 
 The case study investigates an integrated security workflow involving:
 
