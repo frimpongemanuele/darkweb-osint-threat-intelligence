@@ -335,14 +335,14 @@ All practical security-testing activities documented in this repository were per
 
 The project follows several core principles:
 
-- 🔐 **Authorization**: security testing should only be performed against systems you own or have explicit permission to assess.
-- 🛡️ **Defensive Purpose**: OSINT and Dark Web intelligence are used to investigate potential exposure and support defensive security activities.
-- 🔎 **Responsible OSINT**: publicly accessible information should still be collected, processed and shared with consideration for privacy and legitimate purpose.
-- 🔑 **Credential Safety**: exposed or leaked credentials must never be used to access systems without authorization.
-- 🧪 **Controlled Testing**: vulnerability assessment is performed in isolated and authorized environments.
-- 👤 **Privacy & Data Minimization**: personal and sensitive information should be collected and retained only when necessary for the investigation.
-- ✅ **Validation**: OSINT and Dark Web findings should be correlated and verified before conclusions or attribution are made.
-- 📝 **Responsible Disclosure**: genuine vulnerabilities or sensitive exposures should be reported through appropriate channels rather than unnecessarily published.
+- **Authorization**: security testing should only be performed against systems you own or have explicit permission to assess.
+- **Defensive Purpose**: OSINT and Dark Web intelligence are used to investigate potential exposure and support defensive security activities.
+- **Responsible OSINT**: publicly accessible information should still be collected, processed and shared with consideration for privacy and legitimate purpose.
+- **Credential Safety**: exposed or leaked credentials must never be used to access systems without authorization.
+- **Controlled Testing**: vulnerability assessment is performed in isolated and authorized environments.
+- **Privacy & Data Minimization**: personal and sensitive information should be collected and retained only when necessary for the investigation.
+- **Validation**: OSINT and Dark Web findings should be correlated and verified before conclusions or attribution are made.
+- **Responsible Disclosure**: genuine vulnerabilities or sensitive exposures should be reported through appropriate channels rather than unnecessarily published.
 
 > **Disclaimer:** This repository is provided for **educational, academic research and defensive-security purposes**. Nothing in this project should be interpreted as authorization to access systems without permission, misuse exposed credentials, bypass security controls, perform unauthorized security testing or unlawfully collect or redistribute sensitive information.
 
