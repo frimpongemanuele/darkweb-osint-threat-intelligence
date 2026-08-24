@@ -323,6 +323,15 @@ darkweb-osint-threat-intelligence/
 │   │   ├── splunk-event-analysis.png
 │   │   └── metasploit-ms17-010-scan.png
 │   │
+│   ├── lab/
+│   │   ├── osint-monitoring
+│   │   │   └── osint-virtualbox-vm-configuration.png
+│   │   ├── penetration-testing
+│   │   │   ├── kali-lab-environment.png
+│   │   │   └── pentest-virtualbox-vm-configuration.png
+│   │   └── siem
+│   │       └── siem-virtualbox-vm-configuration.png
+│   │
 │   └── methodology/
 │       └── methodology-flow.svg
 └── Lab/
