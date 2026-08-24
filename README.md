@@ -344,6 +344,16 @@ The project follows several core principles:
 - **Validation**: OSINT and Dark Web findings should be correlated and verified before conclusions or attribution are made.
 - **Responsible Disclosure**: genuine vulnerabilities or sensitive exposures should be reported through appropriate channels rather than unnecessarily published.
 
+## Related Documentation
+
+* [Project Architecture](../../docs/architecture.md): Complete laboratory architecture and separation of environments
+* [Methodology](../../docs/methodology.md): Investigation methodology and workflow
+* [Case Study](../../docs/case-study.md): Complete simulated security incident
+* [Results](../../docs/results.md): Findings and conclusions from the investigation
+* [Tools Evaluated](../../docs/tools-evaluated.md): Technologies demonstrated, evaluated and referenced
+* [Ethics & Legal](../../docs/ethics-and-legal.md): Responsible research, authorization and privacy considerations
+* [Future Work](../../docs/future-work.md): Proposed technical extensions to the laboratory
+* [OSINT Monitoring Lab](../osint-monitoring/README.md): External intelligence collection environment
 > **Disclaimer:** This repository is provided for **educational, academic research and defensive-security purposes**. Nothing in this project should be interpreted as authorization to access systems without permission, misuse exposed credentials, bypass security controls, perform unauthorized security testing or unlawfully collect or redistribute sensitive information.
 
 For the complete discussion of authorization, GDPR and privacy considerations, Dark Web research, sensitive-data handling and responsible disclosure, see [`docs/ethics-and-legal.md`](docs/ethics-and-legal.md).
