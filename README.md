@@ -313,11 +313,11 @@ darkweb-osint-threat-intelligence/
 |   ├── future-work.md
 │   └── Thesis.pdf
 │
-└── assets/
+├── assets/
 │   ├── architecture/
 │   │   └── lab-architecture.svg
 │   │
-│   └── case-study/
+│   ├── case-study/
 │   │   ├── darkowl-search-results.png
 │   │   ├── maltego-link-analysis.png
 │   │   ├── splunk-event-analysis.png
