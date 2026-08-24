@@ -310,7 +310,7 @@ darkweb-osint-threat-intelligence/
 │   ├── results.md
 │   ├── tools-evaluated.md
 │   ├── ethics-and-legal.md
-|   ├── future-work.md
+│   ├── future-work.md
 │   └── Thesis.pdf
 │
 ├── assets/
@@ -335,7 +335,7 @@ darkweb-osint-threat-intelligence/
 │   └── methodology/
 │       └── methodology-flow.svg
 │
-└── Lab/
+└── lab/
     ├── osint-monitoring/
     │   └── README.md
     ├── penetration-testing
