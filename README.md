@@ -324,12 +324,12 @@ darkweb-osint-threat-intelligence/
 │   │   └── metasploit-ms17-010-scan.png
 │   │
 │   ├── lab/
-│   │   ├── osint-monitoring
+│   │   ├── osint-monitoring/
 │   │   │   └── osint-virtualbox-vm-configuration.png
-│   │   ├── penetration-testing
+│   │   ├── penetration-testing/
 │   │   │   ├── kali-lab-environment.png
 │   │   │   └── pentest-virtualbox-vm-configuration.png
-│   │   └── siem
+│   │   └── siem/
 │   │       └── siem-virtualbox-vm-configuration.png
 │   │
 │   └── methodology/
