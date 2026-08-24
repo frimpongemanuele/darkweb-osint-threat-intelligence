@@ -314,17 +314,24 @@ darkweb-osint-threat-intelligence/
 │   └── Thesis.pdf
 │
 └── assets/
-    ├── architecture/
-    │   └── lab-architecture.svg
-    │
-    └── case-study/
-    │   ├── darkowl-search-results.png
-    │   ├── maltego-link-analysis.png
-    │   ├── splunk-event-analysis.png
-    │   └── metasploit-ms17-010-scan.png
-    │
-    └── methodology/
-        └── methodology-flow.svg
+│   ├── architecture/
+│   │   └── lab-architecture.svg
+│   │
+│   └── case-study/
+│   │   ├── darkowl-search-results.png
+│   │   ├── maltego-link-analysis.png
+│   │   ├── splunk-event-analysis.png
+│   │   └── metasploit-ms17-010-scan.png
+│   │
+│   └── methodology/
+│       └── methodology-flow.svg
+└── Lab/
+    ├── osint-monitoring/
+    │   └── README.md
+    ├── penetration-testing
+    │   └── README.md
+    └── siem
+        └── README.md
 ```
 
 ## Ethical & Responsible Use
