@@ -260,7 +260,7 @@ These measures represent **recommended responses derived from the case-study inv
 
 ---
 
-# Key Findings
+## Key Findings
 
 The practical case study highlights several observations.
 
@@ -284,7 +284,7 @@ The tested system was not identified as susceptible to the examined vulnerabilit
 
 ---
 
-# Lessons Learned
+## Lessons Learned
 
 The case study demonstrates several broader lessons applicable to security investigations:
 
@@ -298,7 +298,7 @@ The case study demonstrates several broader lessons applicable to security inves
 
 ---
 
-# Scope & Limitations
+## Scope & Limitations
 
 This case study was developed as an **academic simulation in a controlled laboratory environment**.
 
