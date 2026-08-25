@@ -64,7 +64,7 @@ The investigation follows the methodology documented in [Methodology](methodolog
 
 ---
 
-# Phase 1 — Dark Web Intelligence Collection
+##  1 — Dark Web Intelligence Collection
 
 The first phase focuses on identifying external information that could indicate organizational exposure.
 
@@ -102,7 +102,7 @@ The objective of this phase is to identify information potentially relevant to t
 
 ---
 
-# Phase 2 — OSINT Analysis & Correlation
+## Phase 2 — OSINT Analysis & Correlation
 
 Information discovered through OSINT or Dark Web monitoring becomes more useful when relationships between individual data points can be identified.
 
@@ -134,7 +134,7 @@ The purpose of this phase is to transform isolated findings into **contextualize
 
 ---
 
-# Phase 3 — SIEM Investigation
+## Phase 3 — SIEM Investigation
 
 The investigation then moves from external intelligence to activity visible within the monitored environment.
 
@@ -186,7 +186,7 @@ The project therefore treats external threat intelligence and internal event mon
 
 ---
 
-# Phase 4 — Controlled Vulnerability Validation
+## Phase 4 — Controlled Vulnerability Validation
 
 Potential weaknesses identified during an investigation should not automatically be treated as confirmed vulnerabilities.
 
@@ -220,7 +220,7 @@ The objective of this phase is therefore **validation**, not exploitation.
 
 ---
 
-# Phase 5 — Mitigation & Response
+## Phase 5 — Mitigation & Response
 
 Following investigation and validation, the case study considers appropriate containment, remediation and prevention measures.
 
