@@ -14,7 +14,7 @@ To accurately represent the scope of the project, the technologies below are sep
 | **Evaluated / Explored**     | Examined as relevant technologies or potential components of the proposed workflow                              |
 | **Referenced in Research**   | Discussed while surveying the wider OSINT and cybersecurity ecosystem, without implying hands-on implementation |
 
-N.b. **A technology appearing in the thesis should not automatically be interpreted as evidence of practical experience with that technology.**
+Note: **A technology appearing in the thesis should not automatically be interpreted as evidence of practical experience with that technology.**
 
 ---
 
