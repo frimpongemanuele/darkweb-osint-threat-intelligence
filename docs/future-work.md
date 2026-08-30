@@ -6,6 +6,8 @@ The current project demonstrates a research-oriented workflow combining OSINT, D
 
 Future development could extend the laboratory into a more automated and integrated threat-intelligence environment while preserving the same principles of controlled testing, validation and responsible handling of security data.
 
+Items documented in this page are proposed extensions and should not be interpreted as capabilities already implemented in the original thesis project.
+
 ## Automation & Data Collection
 
 A first area of improvement would be reducing the amount of manual work required during intelligence collection and correlation.
