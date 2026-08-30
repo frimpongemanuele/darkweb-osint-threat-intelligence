@@ -361,16 +361,13 @@ The project follows several core principles:
 
 ## License
 
-This repository uses separate licenses for different types of content:
+This project uses separate licenses depending on the type of material:
 
-- **Software, scripts and configuration:** [MIT License](LICENSE)
-- **Original documentation and diagrams:** [CC BY 4.0](LICENSE)
+- **Software, scripts, configuration and queries:** [MIT License](LICENSES/MIT.txt)
+- **Original documentation and diagrams:** [CC BY 4.0](LICENSES/CC-BY-4.0.txt)
 
-The original thesis PDF and third-party trademarks, screenshots and other
-third-party material are excluded from these grants unless otherwise stated.
+The original thesis PDF and third-party screenshots, trademarks, interfaces
+and other third-party material are excluded from these grants unless
+otherwise stated.
 
-See [`LICENSE`](LICENSE) for complete details.
-
-> **Disclaimer:** This repository is provided for **educational, academic research and defensive-security purposes**. Nothing in this project should be interpreted as authorization to access systems without permission, misuse exposed credentials, bypass security controls, perform unauthorized security testing or unlawfully collect or redistribute sensitive information.
-
-For the complete discussion of authorization, GDPR and privacy considerations, Dark Web research, sensitive-data handling and responsible disclosure, see [`docs/ethics-and-legal.md`](docs/ethics-and-legal.md).
+See [`LICENSE`](LICENSE) for the complete licensing notice.
