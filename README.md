@@ -355,6 +355,18 @@ The project follows several core principles:
 - **Validation**: OSINT and Dark Web findings should be correlated and verified before conclusions or attribution are made.
 - **Responsible Disclosure**: genuine vulnerabilities or sensitive exposures should be reported through appropriate channels rather than unnecessarily published.
 
+## License
+
+This repository uses separate licenses for different types of content:
+
+- **Software, scripts and configuration:** [MIT License](LICENSE)
+- **Original documentation and diagrams:** [CC BY 4.0](LICENSE)
+
+The original thesis PDF and third-party trademarks, screenshots and other
+third-party material are excluded from these grants unless otherwise stated.
+
+See [`LICENSE`](LICENSE) for complete details.
+
 > **Disclaimer:** This repository is provided for **educational, academic research and defensive-security purposes**. Nothing in this project should be interpreted as authorization to access systems without permission, misuse exposed credentials, bypass security controls, perform unauthorized security testing or unlawfully collect or redistribute sensitive information.
 
 For the complete discussion of authorization, GDPR and privacy considerations, Dark Web research, sensitive-data handling and responsible disclosure, see [`docs/ethics-and-legal.md`](docs/ethics-and-legal.md).
