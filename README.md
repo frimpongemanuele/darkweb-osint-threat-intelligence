@@ -202,9 +202,6 @@ Developing the case study required combining several areas of cybersecurity that
 - **Connecting heterogeneous information sources**  
   OSINT and Dark Web sources provide information in different formats and with different levels of reliability. Establishing meaningful relationships between collected information required correlation and validation rather than relying on individual findings.
 
-- **Building an isolated research environment**  
-  Dark Web research and security testing introduce additional technical risks. The laboratory therefore required separation between the different activities and dedicated virtualized environments.
-
 - **Correlating external and internal evidence**  
   External intelligence alone does not necessarily confirm a security incident. Combining OSINT findings with Windows security events and SIEM analysis provided an additional perspective for investigating the simulated compromise.
 
@@ -227,10 +224,7 @@ The project highlighted several important principles:
 3. **Isolation is an important part of security research.**  
    Separating research activities into controlled environments reduces unnecessary exposure and provides a safer platform for experimentation.
 
-4. **A negative security finding is still a useful result.**  
-   The absence of the tested MS17-010 vulnerability demonstrates the importance of validating assumptions rather than treating an initial hypothesis as fact.
-
-5. **Technical capability must be combined with responsible security practices.**  
+4. **Technical capability must be combined with responsible security practices.**  
    Authorization, privacy and appropriate handling of sensitive information are fundamental when working with OSINT and cybersecurity tools.
 
 > These lessons influenced the final methodology and the recommendations presented in the project.
