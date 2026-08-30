@@ -233,6 +233,8 @@ This creates a security process in which intelligence collection, monitoring, va
 
 The methodology shares several principles with the **Cyber Threat Intelligence lifecycle**.
 
+The mapping below is conceptual and illustrates how the project extends beyond classical intelligence production into operational investigation and response.
+
 | Project Stage                    | CTI Function                  |
 | -------------------------------- | ----------------------------- |
 | Define intelligence requirements | Direction / Planning          |
