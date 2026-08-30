@@ -1,0 +1,71 @@
+Licensing Notice
+
+Copyright (c) 2026 Emanuele Frimpong
+
+This repository contains different types of material licensed under
+different terms.
+
+1. Software and Code
+--------------------
+
+Unless otherwise stated, original source code, scripts, configuration
+examples, queries, and other software components are licensed under the
+MIT License.
+
+See:
+LICENSES/MIT.txt
+
+
+2. Documentation and Original Project Material
+----------------------------------------------
+
+Unless otherwise stated, original written documentation, project material,
+and original diagrams are licensed under the Creative Commons Attribution
+4.0 International License (CC BY 4.0).
+
+See:
+LICENSES/CC-BY-4.0.txt
+
+License information:
+https://creativecommons.org/licenses/by/4.0/
+
+
+3. Excluded Material
+--------------------
+
+These licenses apply only to material for which the repository author holds
+the necessary rights.
+
+They do not automatically apply to:
+
+- docs/Thesis.pdf;
+- third-party screenshots;
+- software interfaces belonging to third-party vendors;
+- logos, trademarks, icons, and product names;
+- third-party material reproduced or referenced as part of the original
+  academic research;
+- material explicitly marked with another copyright or license notice.
+
+Third-party material remains subject to the rights and terms of its
+respective owners.
+
+
+4. Attribution
+--------------
+
+For original documentation or diagrams licensed under CC BY 4.0, an
+appropriate attribution may take the following form:
+
+"OSINT & Dark Web Threat Intelligence for Corporate Security"
+by Emanuele Frimpong
+licensed under CC BY 4.0.
+
+
+5. Security Disclaimer
+----------------------
+
+The licenses in this repository concern copyright and reuse of the material.
+
+They do not grant authorization to perform security testing, access systems,
+use credentials, or conduct any activity that otherwise requires explicit
+permission.
