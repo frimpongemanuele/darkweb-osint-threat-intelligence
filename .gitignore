@@ -1,0 +1,199 @@
+# ============================================================
+# OS / Desktop files
+# ============================================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# ============================================================
+# IDE / Editor files
+# ============================================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+build/
+dist/
+*.egg-info/
+
+
+# ============================================================
+# Secrets / Environment configuration
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.key
+*.pem
+*.p12
+*.pfx
+
+secrets/
+credentials/
+private/
+
+
+# ============================================================
+# Logs / Temporary output
+# ============================================================
+
+*.log
+logs/
+
+tmp/
+temp/
+.cache/
+
+*.tmp
+*.temp
+*.bak
+
+
+# ============================================================
+# Generated / Exported analysis data
+# ============================================================
+
+output/
+outputs/
+exports/
+generated/
+
+*.csv.tmp
+*.json.tmp
+
+
+# ============================================================
+# Security research artifacts
+#
+# These files can contain sensitive network, credential,
+# endpoint, or investigation data and should not be committed
+# accidentally.
+# ============================================================
+
+*.pcap
+*.pcapng
+*.cap
+
+*.dmp
+*.dump
+*.mem
+*.raw
+
+*.har
+
+captures/
+dumps/
+
+
+# ============================================================
+# Virtualization
+#
+# Do not commit VM disks, snapshots, or runtime data.
+# Sanitized configuration files may be committed manually
+# when appropriate.
+# ============================================================
+
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+
+Snapshots/
+VirtualBox VMs/
+
+*.vbox-prev
+
+VBox.log
+VBox.log.*
+
+
+# ============================================================
+# Splunk / SIEM generated data
+# ============================================================
+
+splunk/var/
+splunk/etc/auth/
+splunk/etc/passwd
+
+*.tsidx
+
+
+# ============================================================
+# LaTeX generated files
+#
+# Useful if thesis source is ever added to the repository.
+# ============================================================
+
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.loa
+*.nav
+*.snm
+*.vrb
+
+
+# ============================================================
+# Archives / Backups
+# ============================================================
+
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+backup/
+backups/
+
+
+# ============================================================
+# Local databases
+#
+# Remove individual patterns later if a sanitized demo
+# database intentionally becomes part of the project.
+# ============================================================
+
+*.db
+*.sqlite
+*.sqlite3
