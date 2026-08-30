@@ -56,35 +56,27 @@ The practical value is not simply visualization: the relationships can help dete
 
 ---
 
-# 3. External Intelligence and Internal Monitoring Are Complementary
+## 3. External Intelligence and Internal Monitoring Are Complementary
 
-One of the central findings of the project is the potential relationship between **external threat intelligence** and **internal security monitoring**.
+One of the central findings of the project is that **external threat intelligence and internal security telemetry provide different but complementary perspectives during an investigation**.
 
-OSINT and Dark Web monitoring provide visibility into information outside the organization's direct infrastructure, while SIEM systems provide visibility into events occurring within monitored systems.
+OSINT and Dark Web monitoring can reveal potential exposure outside an organization's direct infrastructure, while SIEM data provides visibility into activity recorded within monitored systems.
 
-The case study uses **Splunk Enterprise** to demonstrate the collection and investigation of Windows event logs, including:
+The practical case study used **Splunk Enterprise** to examine Windows event data and demonstrate how internal telemetry can provide additional context when evaluating information discovered externally.
 
-* Application events;
-* Security events;
-* System events.
-
-External indicators can provide additional context for SIEM searches and correlation logic.
-
-Conceptually:
+The relationship can be summarized as:
 
 ```text
 External Intelligence
         ↓
-Relevant Indicator
+Potentially Relevant Indicator
         ↓
-Internal Log Search
+Internal Telemetry Review
         ↓
-Event Correlation
+Correlation & Context
         ↓
-Investigation
+Further Investigation
 ```
-
-This demonstrates why external intelligence and internal telemetry can be more useful when considered together rather than as independent sources.
 
 ---
 
