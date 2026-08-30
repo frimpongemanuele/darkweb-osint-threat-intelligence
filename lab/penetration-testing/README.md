@@ -153,7 +153,7 @@ The objective is to obtain sufficient technical evidence to support or reject th
 
 The practical case study demonstrates vulnerability validation using **Metasploit Framework**.
 
-The tested system exposed the SMB service on port:
+The assessment targeted SMB on port:
 
 ```text
 TCP/445
@@ -245,7 +245,7 @@ Vulnerability Not Detected
 Hypothesis Not Confirmed
 ```
 
-The result therefore prevented a potential attack vector from being incorrectly treated as a confirmed vulnerability.
+The result therefore prevented a potential attack vector from being incorrectly documented as a confirmed vulnerability.
 
 ---
 
