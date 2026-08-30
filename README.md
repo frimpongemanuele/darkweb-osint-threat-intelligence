@@ -301,6 +301,10 @@ darkweb-osint-threat-intelligence/
 │
 ├── .gitignore
 │
+├── LICENSES/
+│   ├── CC-BY-4.0.txt
+│   └── MIT.txt
+│
 ├── docs/
 │   ├── architecture.md
 │   ├── methodology.md
