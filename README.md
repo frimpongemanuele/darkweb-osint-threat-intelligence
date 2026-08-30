@@ -297,6 +297,10 @@ darkweb-osint-threat-intelligence/
 │
 ├── README.md
 │
+├── LICENSE
+│
+├── .gitignore
+│
 ├── docs/
 │   ├── architecture.md
 │   ├── methodology.md
