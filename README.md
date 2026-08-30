@@ -288,7 +288,6 @@ Detailed technical documentation is available in the [`docs/`](docs/) directory.
 | **[Results](docs/results.md)** | Key findings, outcomes, limitations and conclusions derived from the practical case study. |
 | **[Tools & Technologies](docs/tools-evaluated.md)** | Technologies practically demonstrated, evaluated or referenced during the research, with a clear distinction between levels of usage. |
 | **[Ethics, Legal & Responsible Use](docs/ethics-and-legal.md)** | Authorization, privacy, responsible OSINT, sensitive-data handling and ethical security-research considerations. |
-| **[Original Thesis](docs/Thesis.pdf)** | Complete original academic thesis on which this portfolio project is based. |
 
 ### Repository Structure
 
@@ -312,8 +311,7 @@ darkweb-osint-threat-intelligence/
 │   ├── results.md
 │   ├── tools-evaluated.md
 │   ├── ethics-and-legal.md
-│   ├── future-work.md
-│   └── Thesis.pdf
+│   └── future-work.md
 │
 ├── assets/
 │   ├── architecture/
