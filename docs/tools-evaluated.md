@@ -99,7 +99,7 @@ The platform represents information through entities and links, allowing relatio
 * social accounts;
 * cryptocurrency addresses
 
-To be visualized and investigated.
+These entities can then be visualized and investigated through their relationships.
 
 **Project role:** Entity correlation and relationship analysis.
 
