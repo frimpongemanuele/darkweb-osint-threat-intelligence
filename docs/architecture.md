@@ -60,7 +60,7 @@ The lab is hosted on a primary machine running **Oracle VM VirtualBox**, which p
 
 The architecture consists of three functionally separated virtual machines connected through the host environment.
 
-A firewall is included in the architectural design to control network traffic, reduce unauthorized access and monitor communications entering and leaving the environment.
+The architecture includes firewall controls conceptually as part of the design; the project does not document a dedicated production firewall deployment.
 
 The use of separate virtual machines also helps contain the potential impact of a compromised environment by limiting activities associated with Dark Web monitoring, log analysis and penetration testing to their respective systems.
 
